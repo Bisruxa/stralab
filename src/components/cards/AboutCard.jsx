@@ -16,18 +16,17 @@ function AboutCard({rating,content,location,total}) {
     }
   }
   return (
-    <div className='w-[300px] h-40 bg-beige rounded-lg p-4 shadow-xl border flex flex-row'>
+    <div className="w-[300px] h-40 bg-[#F7F6F9] rounded-lg p-4 shadow-xl border flex flex-row">
       <div>
-        <p className='flex'>
-          <span className='flex'>{stars}</span>
-          <span className='ml-2'>{rating}</span>
+        <p className="flex">
+          <span className="flex">{stars}</span>
+          <span className="ml-2">{rating}</span>
         </p>
         <p>{content}</p>
-        <p className='font-semibold'>{location}</p>
+        <p className="font-semibold">{location}</p>
       </div>
-      
     </div>
-  )
+  );
 }
 
 export default AboutCard

@@ -4,7 +4,7 @@ import Link from 'react-dom'
 function Navbar() {
   return (
     <>
-      <nav className="flex justify-between w-100 bg-white shadow-lg h-20 center items-center m-9 rounded-lg sticky  top-0 z-10">
+      <nav className="flex justify-between w-100 bg-white shadow-lg h-20 center items-center m-9 rounded-lg sticky  top-0 z-10 border">
         <div className="pl-3">STRATLAB</div>
         <div>
           <ul className="flex flex-row gap-x-10">
