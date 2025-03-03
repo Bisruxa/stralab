@@ -1,4 +1,8 @@
 import React from 'react'
+import { FaLinkedin } from "react-icons/fa6";
+import { FaInstagram } from "react-icons/fa";
+import { FaFacebookF } from "react-icons/fa";
+import { FaYoutube } from "react-icons/fa";
 
 function Footer() {
   return (
@@ -11,7 +15,13 @@ function Footer() {
               easy. On day one ,they're ready to go.And retaining <br /> them is
               easier.
             </p>
-            <h2 className='my-11'>Follow us on: </h2>
+            <div className="flex items-center gap-4 my-11">
+              <h2>Follow us on:</h2>
+              <FaLinkedin className="text-2xl" />
+              <FaInstagram className="text-2xl" />
+              <FaYoutube className="text-2xl" />
+              <FaFacebookF className="text-2xl" />
+            </div>
           </div>
           <div className=" text-white p-10">
             <div className="grid grid-cols-3 gap-8">

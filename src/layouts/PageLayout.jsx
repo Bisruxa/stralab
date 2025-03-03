@@ -14,21 +14,46 @@ import Footer from '../pages/Footer';
 function PageLayout({children}) {
   return (
     <>
-      <Navbar/>
-      {children}
-      <Hero/>
-      <About/>
-      <Feature/>
-     <About2/>
-     <Summary/>
-     <Learn/>
-     <Feature2/>
-     <Pricing/>
-    <Testimonials/>
-    <Last/>
-    <Footer/>
+      <Navbar />
+      <section id="hero">
+        <Hero />
+      </section>
+      <section id="about">
+        <About />
+      </section>
+      <section id="feature">
+        {" "}
+        <Feature />
+      </section>
+      <section id="about2">
+        {" "}
+        <About2 />
+      </section>
+      <section id="summary">
+        {" "}
+        <Summary />
+      </section>
+      <section id="learn">
+        {" "}
+        <Learn />
+      </section>
+      <section id="feature2">
+        <Feature2 />
+      </section>
+      <section id="pricing">
+        {" "}
+        <Pricing />
+      </section>
+      <section id="testimonials">
+        <Testimonials />
+      </section>
+      <section id="last">
+        <Last />
+      </section>
+
+      <Footer />
     </>
-  )
+  );
 }
 
 export default PageLayout
