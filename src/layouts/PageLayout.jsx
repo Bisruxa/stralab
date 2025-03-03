@@ -8,6 +8,9 @@ import Summary from '../pages/Summary';
 import Learn from '../pages/Learn';
 import Feature2 from '../pages/Feature2';
 import Pricing from '../pages/Pricing';
+import Testimonials from '../pages/Testimonials';
+import Last from '../pages/Last';
+import Footer from '../pages/Footer';
 function PageLayout({children}) {
   return (
     <>
@@ -21,6 +24,9 @@ function PageLayout({children}) {
      <Learn/>
      <Feature2/>
      <Pricing/>
+    <Testimonials/>
+    <Last/>
+    <Footer/>
     </>
   )
 }
